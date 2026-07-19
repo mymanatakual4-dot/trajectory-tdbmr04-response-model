@@ -5,9 +5,9 @@ A unified mathematical framework for modeling biological responses to gravitatio
 ## Equation
 
 The model is defined as:
-The model is defined as:
-
-$$ \ln\frac{S(t)}{S_0} = \bigl[-\alpha - \beta \Delta g\bigr] \cdot \bigl(1 - e^{-t/\tau}\bigr) \;-\; \lambda R t \;+\; \varepsilon $$
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?\ln\frac{S(t)}{S_0}%20=%20\bigl[-\alpha%20-%20\beta%20\Delta%20g\bigr]%20\cdot%20\bigl(1%20-%20e^{-t/\tau}\bigr)%20\;-\;%20\lambda%20R%20t%20\;+\;%20\varepsilon" />
+</p>
 Where:
 - `S(t)`: biological state at time t
 - `S₀`: baseline state
